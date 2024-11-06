@@ -21,6 +21,16 @@ function App() {
           <Button onClick={() => console.log('Clicked Button')}>Enter</Button>
         </InputGroup>
       </Container>
+      <Container>
+        <Row className="mx-2 row row-cols-4">
+          <Card>
+            <Card.Img src=""/>
+            <Card.Body>
+              <Card.Title>Album Name</Card.Title>
+            </Card.Body>
+          </Card>
+        </Row>
+      </Container>
     </div>
   );
 }
